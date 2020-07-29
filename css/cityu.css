@@ -189,7 +189,6 @@ html, body {
   }
   .pagination-titles{
     padding:2em;
-    padding-right: 3em;
     background: rgba(255, 255, 255, 0.9);
   }
   .controls {
@@ -820,9 +819,12 @@ html, body {
       align-items: center;
       width: calc(100% - 55px);
       font-size: 1em;
-      padding: 0 1em;
       max-width: 400px;
       margin: auto;
+    }
+    .interest p{
+      font-size: 0.8em;
+      font-weight: bold;
     }
     #fixed-bar .tel, #fixed-bar .mail {
     display: inline-flex;
@@ -877,6 +879,7 @@ html, body {
     font-size: 0.7em;
     margin-bottom: unset;
     color: var(--main-color);
+    font-weight: bold;
   }
   #fixed-bar-mobile a {
     width: 100%;
@@ -954,6 +957,9 @@ html, body {
   .pagination-wrapper {
       min-height: 163px;
   }
+  .pagination-titles{
+    padding-right: 3em;
+  }
   #burger-mobile-open, #burger-mobile-close {
     display: none;
   }
@@ -1003,6 +1009,9 @@ html, body {
   .pagination-wrapper {
     width: 100%;
   }
+  .interest p{
+      font-size: 1em;
+    }
 }
 @media (min-width: 992px) {
   #menu {
@@ -1021,10 +1030,6 @@ html, body {
   .mail{
     margin-right: 4em;
     margin-left: 2em;
-  }
-  .interest {
-      padding: 0 ;
-
   }
   #study-menu {
     font-size: 0.9rem;
