@@ -189,7 +189,9 @@ function isInside( parent_node , child_node) {
   });
   burger_close.addEventListener('click',function(){
     document.querySelector('#menu').classList.remove('active');
-     
+         if (document.querySelector('#fixed-bar').classList.contains('active')) {
+            document.querySelector('#fixed-bar').classList.remove('active')
+          }
   });
 
 $(window).on('resize scroll', function() {
