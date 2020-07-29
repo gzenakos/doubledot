@@ -944,7 +944,7 @@ html, body {
   .menu-right-in {
     align-content: space-between;
   }
-  .colored-group {
+  .colored-group > .row {
 	padding: 0.5em 1em;
   }
 @media(min-width: 480px) {
@@ -963,7 +963,7 @@ html, body {
     } 
 }
 @media(min-width: 768px) {
-   .colored-group {
+   .colored-group > .row{
 	padding: 0.5em;
   }
   #menu .newsletter input {
