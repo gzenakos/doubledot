@@ -700,6 +700,7 @@ html, body {
     color: white;
     justify-content: flex-end;
     position: relative;
+    height: 100%;
   }
   .group h2{
     font-size: 1.25em;
