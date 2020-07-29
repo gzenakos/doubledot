@@ -1,7 +1,7 @@
 :root {
-    --main-color: #752936;   /* βασικό χρώμα */
-    --main-bottom-color:  #FFB3BC;   /* βασικό χρώμα στο κάτω μέρος του πρώτου section*/
-    --light-color:  #EAD3C1;   /* βασικό δέυτερο χρώμα για τα ενδιάμεσα sections */
+    --main-color: rgb(117 41 54);   /* βασικό χρώμα */
+    --main-bottom-color:  rgb(255 179 188);   /* βασικό χρώμα στο κάτω μέρος του πρώτου section*/
+    --light-color:  rgb(234 211 193);   /* βασικό δέυτερο χρώμα για τα ενδιάμεσα sections */
     --btn-text: black;   /* χρώμα κειμένου πλήκτρων */
 }
 
