@@ -607,11 +607,11 @@ html, body {
     background-image: #C4C4C4;
     background-color: var(--main-bottom-color);
       background-blend-mode: multiply;
-      height: 200px;
+      height: 233px;
   }
   .news-slider-item-info {
     background-color: white;
-    height: 150px;
+    height: 125px;
     padding: 1em;
       align-items: flex-end;
   }
@@ -969,9 +969,6 @@ html, body {
     } 
 }
 @media(min-width: 768px) {
-    .news-slider-item-image {
-     height: 250px;
-  }
    .colored-group > .row{
 	padding: 0.5em;
   }
