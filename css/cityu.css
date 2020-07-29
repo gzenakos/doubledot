@@ -1,15 +1,8 @@
 :root {
     --main-color: #752936;  
-    --main-color: rgb(117 41 54);  
-
     --main-bottom-color:  #ffb3bc;
-    --main-bottom-color:  rgb(255 179 188);  
-
     --light-color:  #ead3c1;
-    --light-color:  rgb(234 211 193);   
-    --btn-text: black;  
 }
-
 html, body {
 	font-size:16px;
 	font-family: 'CF Panoptik', sans-serif;
