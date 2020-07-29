@@ -138,7 +138,7 @@ html, body {
     background-color: var(--light-color);
   }
   .right-side {
-     
+     height: 100%;
   }
   .top-info>div {
     
