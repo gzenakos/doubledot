@@ -188,7 +188,8 @@ html, body {
     font-size: 1.25em;
   }
   .pagination-titles{
-    padding:2em;
+    padding:0 2em;
+    align-items: center;
     background: rgba(255, 255, 255, 0.9);
   }
   .controls {
