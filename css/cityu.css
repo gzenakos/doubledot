@@ -717,8 +717,11 @@ html, body {
     font-family: 'CF Panoptik';
   }
   .group a{
-    width: 92%;
+    width: 100%;
     display: flex;
+  }
+  .group a.top-right-fix-close{
+    width: 80%;
   }
   .group.social a {
     width: unset;
