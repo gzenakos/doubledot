@@ -607,7 +607,7 @@ html, body {
     background-image: #C4C4C4;
     background-color: var(--main-bottom-color);
       background-blend-mode: multiply;
-      height: 250px;
+      height: 200px;
   }
   .news-slider-item-info {
     background-color: white;
@@ -969,6 +969,9 @@ html, body {
     } 
 }
 @media(min-width: 768px) {
+    .news-slider-item-image {
+     height: 250px;
+  }
    .colored-group > .row{
 	padding: 0.5em;
   }
