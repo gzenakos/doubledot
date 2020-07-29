@@ -41,7 +41,7 @@ $('#news-slider').slick({
     infinite: false,
     dots: false,
     slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToScroll: 4,
     autoplay: false,
     autoplaySpeed: 4000,
     nextArrow: $('#news-custom-next'),
@@ -51,23 +51,23 @@ $('#news-slider').slick({
       breakpoint: 1024,
       settings: {
         slidesToShow: 4,
-        slidesToScroll: 4,
-        infinite: true,
-        dots: true
+        slidesToScroll: 3,
+        infinite: false,
+        dots: false
       }
     },
     {
       breakpoint: 767,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 2,
       }
     },
     {
       breakpoint: 550,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -189,9 +189,7 @@ function isInside( parent_node , child_node) {
   });
   burger_close.addEventListener('click',function(){
     document.querySelector('#menu').classList.remove('active');
-         if (document.querySelector('#fixed-bar').classList.contains('active')) {
-            document.querySelector('#fixed-bar').classList.remove('active')
-          }
+     
   });
 
 $(window).on('resize scroll', function() {
