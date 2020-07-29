@@ -705,6 +705,9 @@ html, body {
     justify-content: flex-end;
     position: relative;
   }
+  .menu-left, .menu-right {
+      padding-bottom: 2em;
+  }
   .group h2{
     font-size: 1.25em;
     font-weight: bold;
