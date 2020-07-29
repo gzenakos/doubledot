@@ -198,6 +198,7 @@ html, body {
     justify-content: center;
       display: none;
       flex-direction: column;
+      height: 100%;
   }
   .controls img {
     padding: 1em;
