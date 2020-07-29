@@ -769,7 +769,7 @@ html, body {
   }
   .group{
     width: 100%;
-    margin-bottom: 4.5em;
+    
   }
   #menu .newsletter input[type="submit" i]:focus {
       outline: none;
@@ -927,6 +927,9 @@ html, body {
   .scrolled .search-mobile {
     align-items: center;
   }
+  .menu-right-in {
+    align-content: space-between;
+  }
 @media(min-width: 480px) {
     .news-container{
     width: 150%;
@@ -1010,7 +1013,7 @@ html, body {
     padding: 0 1em;
   }
   .group{
-    margin-bottom: 2em;
+     
   }
   #menu {
     font-size: 0.9rem;
@@ -1035,9 +1038,7 @@ html, body {
   .social a {
     margin: 0 1em;
   }
-  .group{
-    margin-bottom: 3em;
-  } 
+ 
   .interest {
       padding: 0 2em;
   }
@@ -1071,9 +1072,7 @@ html, body {
   #section_1 .pagination-titles {
    font-size: 1.2rem;
   }
-  .group{
-    margin-bottom: 3.5em;
-  }
+ 
   .social a {
     margin: 0 1.5em;
   }
