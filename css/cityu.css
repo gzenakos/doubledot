@@ -856,7 +856,7 @@ html, body {
     padding: 4em 4vw;
     }
     .news-container {
-    font-size: 1rem;
+    font-size: 0.9rem;
     }
     #section_1 .top-row {
     font-size: 0.9rem;
@@ -947,6 +947,12 @@ html, body {
   .colored-group > .row {
 	padding: 0.5em 1em;
   }
+@media(min-width: 360px) {
+    .news-container{
+    font-size: 1rem;
+    }
+}
+
 @media(min-width: 480px) {
     .news-container{
     width: 150%;
