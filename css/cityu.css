@@ -1027,9 +1027,6 @@ html, body {
   .news-container{
     width: 125%;
   }
-  .interest {
-      padding: 0 2em;
-  }
 }
 @media (min-width: 1100px) {
   .social a {
@@ -1038,7 +1035,9 @@ html, body {
   .group{
     margin-bottom: 3em;
   } 
-
+  .interest {
+      padding: 0 2em;
+  }
 }
 @media (min-width: 1200px) {
   .news-container {
