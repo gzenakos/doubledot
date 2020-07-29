@@ -662,9 +662,8 @@ html, body {
     z-index: 1;
   }
   #menu {
-      min-height: 100vh;
+      height: 100vh;
       background-color: var(--light-color);
-      min-height: 100vh;
       width: 100%;
       position: absolute;
       z-index: 20;
@@ -676,6 +675,9 @@ html, body {
       -moz-transition: all 0.5s linear;
       -o-transition: all 0.5s linear;
       transition: all 0.5s linear;
+  }
+  #menu > div {
+    height: 100%;
   }
   #menu.display-none {
     display: none;
