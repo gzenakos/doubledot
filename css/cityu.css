@@ -671,10 +671,10 @@ html, body {
       top: 0;
       visibility: hidden;
       opacity: 0;
-      -webkit-transition:  opacity 0.5s linear;
-      -moz-transition: opacity 0.5s linear;
-      -o-transition: opacity 0.5s linear;
-      transition: opacity 0.5s linear;
+      -webkit-transition:  all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
   }
   #menu > div {
     height: 100%;
