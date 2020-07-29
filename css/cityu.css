@@ -239,7 +239,7 @@ html, body {
     padding: 0.5em;
   }
   .appointment a{
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     font-size: 1em;
@@ -816,7 +816,7 @@ html, body {
     color: var(--main-color);
     justify-content: space-between;
     height: 100%;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       width: calc(100% - 55px);
       font-size: 1em;
@@ -1008,9 +1008,7 @@ html, body {
   #menu {
     font-size: 0.8rem;
   }
-  .appointment>div{
-    padding: 1em 2em;
-  }
+ 
   .menu-left>.row {
     padding: 0 1em;
   }
@@ -1025,7 +1023,8 @@ html, body {
     margin-left: 2em;
   }
   .interest {
-      padding: 0 1.5em;
+      padding: 0 ;
+
   }
   #study-menu {
     font-size: 0.9rem;
@@ -1041,9 +1040,6 @@ html, body {
     margin: 0 1em;
   }
  
-  .interest {
-      padding: 0 2em;
-  }
 }
 @media (min-width: 1200px) {
   .news-container {
