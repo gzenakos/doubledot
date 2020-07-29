@@ -947,7 +947,7 @@ html, body {
   .colored-group > .row {
 	padding: 0.5em 1em;
   }
-@media(min-width: 360px) {
+@media(min-width: 410px) {
     .news-container{
     font-size: 1rem;
     }
