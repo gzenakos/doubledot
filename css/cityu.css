@@ -972,7 +972,7 @@ html, body {
       min-height: 163px;
   }
   .pagination-titles{
-    padding-right: 3em;
+    padding:0 4em 0 2em;
   }
   #burger-mobile-open, #burger-mobile-close {
     display: none;
