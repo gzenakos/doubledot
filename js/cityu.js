@@ -3,6 +3,7 @@ document.querySelector('#menu').classList.remove('display-none');
 //*--- dublicates the first item of news slider in order to show its preview next to last one -----*/
 let news_slider_first_item = document.querySelector('.news-slider-item');
 let news_slider_first_item_cloned = news_slider_first_item.cloneNode(true);
+news_slider_first_item_cloned.style.display ='none';
 let news_slider = document.querySelector('#news-slider');
 news_slider.appendChild(news_slider_first_item_cloned);
 //*---/ dublicates the first item of news slider in order to show its preview next to last one -----*/
