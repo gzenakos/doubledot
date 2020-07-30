@@ -660,7 +660,7 @@ html, body {
       right: 0;
     background-color: var(--light-color);
     z-index: 1;
-    display: block;
+    display: none;
   }
   #menu {
       height: 100vh;
@@ -971,7 +971,7 @@ html, body {
 }
 @media(min-width: 768px) {
   .news-container .news-slider-item-mask {
-    display: none;
+    display: block;
   }
    .colored-group > .row{
   padding: 0.5em;
